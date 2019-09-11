@@ -1,0 +1,88 @@
+I, [2019-09-11T13:26:07.596040 #32439]  INFO -- : Registered expected interaction GET /internal/flights/routes
+D, [2019-09-11T13:26:07.596466 #32439] DEBUG -- : {
+  "description": "a call to list routes",
+  "request": {
+    "method": "GET",
+    "path": "/internal/flights/routes",
+    "headers": {
+      "Authorization": "Basic Y3Bfc2VydmljZTo1a0swODZOMUU4MVJKeTlz",
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+    },
+    "body": {
+      "results": {
+        "json_class": "Pact::ArrayLike",
+        "contents": "SDQ-MXP",
+        "min": 1
+      },
+      "total": {
+        "json_class": "Pact::SomethingLike",
+        "contents": 8
+      }
+    }
+  }
+}
+I, [2019-09-11T13:26:07.617523 #32439]  INFO -- : Received request GET /internal/flights/routes
+D, [2019-09-11T13:26:07.617674 #32439] DEBUG -- : {
+  "path": "/internal/flights/routes",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Authorization": "Basic Y3Bfc2VydmljZTo1a0swODZOMUU4MVJKeTlz",
+    "Host": "soyuz3.citizenplane.tech:8000",
+    "Accept": "application/json",
+    "Connection": "close",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2019-09-11T13:26:07.618034 #32439]  INFO -- : Found matching response for GET /internal/flights/routes
+D, [2019-09-11T13:26:07.618197 #32439] DEBUG -- : {
+  "status": 200,
+  "headers": {
+  },
+  "body": {
+    "results": {
+      "json_class": "Pact::ArrayLike",
+      "contents": "SDQ-MXP",
+      "min": 1
+    },
+    "total": {
+      "json_class": "Pact::SomethingLike",
+      "contents": 8
+    }
+  }
+}
+I, [2019-09-11T13:26:07.630222 #32439]  INFO -- : Received request GET /internal/flights/routes
+D, [2019-09-11T13:26:07.630396 #32439] DEBUG -- : {
+  "path": "/internal/flights/routes",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Authorization": "Basic Y3Bfc2VydmljZTo1a0swODZOMUU4MVJKeTlz",
+    "Host": "soyuz3.citizenplane.tech:8000",
+    "Accept": "application/json",
+    "Connection": "close",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2019-09-11T13:26:07.630764 #32439]  INFO -- : Found matching response for GET /internal/flights/routes
+D, [2019-09-11T13:26:07.630936 #32439] DEBUG -- : {
+  "status": 200,
+  "headers": {
+  },
+  "body": {
+    "results": {
+      "json_class": "Pact::ArrayLike",
+      "contents": "SDQ-MXP",
+      "min": 1
+    },
+    "total": {
+      "json_class": "Pact::SomethingLike",
+      "contents": 8
+    }
+  }
+}
