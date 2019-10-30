@@ -59,7 +59,7 @@
     "joi": "^13.2.0",
     "js2xmlparser": "^3.0.0",
     "jsonwebtoken": "^8.2.1",
-    "knex": "^0.14.6",
+    "knex": "^0.20.1",
     "knex-utils": "^4.1.5",
     "lab": "^18.0.2",
     "lodash": "^4.17.15",
